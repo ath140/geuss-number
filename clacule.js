@@ -8,3 +8,7 @@ document.querySelector('.egge').addEventListener('click',function(){
         document.querySelector('.correct').textContent="🎉good is un number";
     }
 })
+document.querySelector('.again').addEventListener('click',function(){
+    const num = Math.trunc(Math.random()*20)+1;
+    document.querySelector('.highscoore').textContent = num;
+    });Math.r
