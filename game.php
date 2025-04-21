@@ -21,7 +21,7 @@
         .choose,
         .again ,
         .btn,
-        .scoore,.highscoore{
+        .scoore,.highscoore,.highscoore1,.NUMS{
             font-family: "Press Start 2P", system-ui;
             font-weight: 100;
             font-style: normal;
@@ -45,19 +45,20 @@
     <br><br>
     <div class="row">
         <div class="col btn  justified-content-center" >
-    <button class="num" style="color:black;background-color:white;font-size: 30px;width: 90px;height:70px;">?</button>
+    <button class="num" style="color:black;background-color:white;font-size: 30px;width:90px;height:70px;border:none">?</button>
     </div>
     </div>
     <br><br><br>
     <div class="row">
-        <div class="col-6">
+        <div class="col-4">
             <input type="text" class="number" style="border:3px solid white;background-color:black;color:white;
         font-size:20px;width:90px;height:70px;text-align:center;">
             <button class="egge" style="border-radius: 0;color:black;background-color:white;color:blacks;width: 90px;height: 60px;">Check</button>
         </div>
-        <div class="col-6">
+        <div class="col-8">
             <h5 class="correct" style="color:white;font-size:20px;text-align: center;">quelque minute.....</h5><br>
-            <h5 class="scoore" style="color:white;font-size:20px;text-align: center;">scoore is =</h5><br>
+            <h5 class="scoore" style="color:white;font-size:20px;text-align: center;">scoore is = <span class="NUMS">m</span></h5>
+            <br>
             <h5 class="highscoore1" style="color:white;font-size:20px;text-align: center;">High scoore =</h5>
             <h5 class="highscoore" style="color:white;font-size:20px;text-align: center;"></h5>
         </div>
